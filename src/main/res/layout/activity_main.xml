@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harude.hardiyan_apk.MainActivity">
+
+    <TextView
+        android:id="@+id/openText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openText"
+        android:textSize="24sp"
+        android:layout_above="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStart"
+        android:onClick="goStart"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

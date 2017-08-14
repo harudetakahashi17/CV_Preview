@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LInearP2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/profEduBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profEduBack"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/profEdu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profEdu1"
+        />
+
+    <TextView
+        android:id="@+id/profEdu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profEdu2"
+        />
+
+    <TextView
+        android:id="@+id/profEdu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profEdu3"
+        />
+
+    <TextView
+        android:id="@+id/profEdu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profEdu4"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txWorkBG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profWorkBack"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txWork1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profWork1"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txWork2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profWork2"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txOthers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOther"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth1"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth2"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth3"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth4"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth5"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth6"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth7"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth8"
+        android:layout_marginBottom="3dp"
+        />
+
+    <TextView
+        android:id="@+id/txOth9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profOth9"
+        android:layout_marginBottom="3dp"
+        />
+
+</LinearLayout>

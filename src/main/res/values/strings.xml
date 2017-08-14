@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CV Preview</string>
+    <string name="openText">Welcome to CV Preview!</string>
+    <string name="btnStart">Tap here to Start</string>
+    <string name="profImageDesc">Profile Picture</string>
+    <string name="profName">Hardiyan Ichsan Gunawan</string>
+    <string name="profDOB">Bandung, 17/12/1995</string>
+    <string name="profAddr">Komp. Griya Bandung Indah Blok G19 3A</string>
+    <string name="profStat">Not Married</string>
+    <string name="profReli">Islam</string>
+    <string name="profEduc">Collage Student</string>
+    <string name="profSchl">Telkom University</string>
+    <string name="profEduBack">Education Background</string>
+    <string name="profEdu1">1. Post-Graduate S1 Informatics Department (Telkom University)</string>
+    <string name="profEdu2">2. SMK Negeri 1 Cimahi</string>
+    <string name="profEdu3">3. SMP Negeri 15 Bandung</string>
+    <string name="profEdu4">4. SDP Negeri Setiabudi Bandung</string>
+    <string name="profWorkBack">Work Experiences</string>
+    <string name="profWork1">1. Jonas Photo, Photographer\'s Assistant</string>
+    <string name="profWork2">2. PT. LEN Industri (Persero), IT Support</string>
+    <string name="profOther">Other Informations</string>
+    <string name="profOth1">1. Committee of Nihon No Matsuri 10 Telkom University</string>
+    <string name="profOth2">2. Committee of Nihon No Matsuri 9 Telkom University</string>
+    <string name="profOth3">3. Participate in IP NETWORK TRAINING at Telkom University</string>
+    <string name="profOth4">4. Participate in Explosif "Smart City" Talk Show at Telkom University</string>
+    <string name="profOth5">5. Participate in Addictive Against Aids 2015 Telkom University</string>
+    <string name="profOth6">6. Participate in Ubuntu Release Party 15.04 at Telkom University</string>
+    <string name="profOth7">7. Network Technician Certification by APJII and SMK Negeri 1 Cimahi</string>
+    <string name="profOth8">8. 3rd Place in Lomba Kompetensi Siswa Bahasa Jepang, Jawa Barat</string>
+    <string name="profOth9">9. Participate in Seminar Network Security at Universitas Langlangbuana</string>
+    <string name="profCont">Contact Person</string>
+    <string name="profContact">Email \t\t : hardiyan.gunawan@gmail.com
+    \nPhone \t\t : (+62)82240865443
+    \nAddress : Komp. Griya Bandung Indah Blok G19 No.3A</string>
+    <string name="linkFB">Go To FB</string>
+    <string name="linkIG">Go To IG</string>
+    <string name="linkGit">Go To GitHub</string>
+    <string name="blue">blue</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="title_activity_home">Home</string>
+    <string name="logo">logo</string>
+    <string name="fb">HarudeTakahashi</string>
+    <string name="line">110924171295</string>
+    <string name="ig">Harude Takahashi</string>
+    <string name="wa">+6282240865443</string>
+    <string name="github">harudetakahashi17</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/ContactPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profCont"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/ContactContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ContactPerson"
+        android:text="@string/profContact"
+        />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/fb_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/ContactContent"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/line_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/fb"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/ig"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/ig_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/line"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/wa"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/wa_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/ig"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/github"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/github_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@+id/wa"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/fbtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fb"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="24dp"
+        android:layout_alignTop="@+id/fb"
+        android:layout_toEndOf="@+id/fb" />
+
+    <TextView
+        android:id="@+id/linetx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/line"
+        android:layout_alignStart="@+id/fbtx" />
+
+    <TextView
+        android:id="@+id/igtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ig"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/ig"
+        android:layout_alignStart="@+id/fbtx" />
+
+    <TextView
+        android:id="@+id/watx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wa"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/wa"
+        android:layout_alignStart="@+id/fbtx" />
+
+    <TextView
+        android:id="@+id/githubtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/github"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/github"
+        android:layout_alignStart="@+id/fbtx" />
+
+    <Button
+        android:id="@+id/goToFB"
+        android:background="#8f8f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkFB"
+        android:onClick="goToFB"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/goToIG"
+        android:background="#8f8f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkIG"
+        android:onClick="goToIG"
+        android:layout_alignBaseline="@+id/goToGit"
+        android:layout_alignBottom="@+id/goToGit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/goToGit"
+        android:background="#8f8f8f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkGit"
+        android:onClick="goToGitHub"
+        android:layout_alignBaseline="@+id/goToFB"
+        android:layout_alignBottom="@+id/goToFB"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

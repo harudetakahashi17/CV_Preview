@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profPic"
+        android:contentDescription="@string/profImageDesc"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profpics"
+        android:background="@drawable/borderpics"
+        />
+
+    <LinearLayout
+        android:id="@+id/LinearP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/profPic"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/profName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profName"
+            />
+
+        <TextView
+            android:id="@+id/profDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profDOB"
+            />
+
+        <TextView
+            android:id="@+id/profAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profAddr"
+            />
+
+        <TextView
+            android:id="@+id/profStat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profStat"
+            />
+
+        <TextView
+            android:id="@+id/profReli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profReli"
+            />
+
+        <TextView
+            android:id="@+id/profEduBG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profEduBack"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/profEdu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profEdu1"
+            />
+
+        <TextView
+            android:id="@+id/profEdu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profEdu2"
+            />
+
+        <TextView
+            android:id="@+id/profEdu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profEdu3"
+            />
+
+        <TextView
+            android:id="@+id/profEdu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profEdu4"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
